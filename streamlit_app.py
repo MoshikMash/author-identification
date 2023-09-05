@@ -72,7 +72,7 @@ with tab1:
         # Select threshold
         numer_of_matrices = st.slider('Number of SHUTS per Author', 1, 50, 5)
         # Execute code based on selections
-        run_btn = st.button('Run Code')
+        run_btn = st.button('Display Results')
         if run_btn:
             st.markdown("<span style='color:blue; font-weight:bold;'>View Results Tab</span>", unsafe_allow_html=True)
 
